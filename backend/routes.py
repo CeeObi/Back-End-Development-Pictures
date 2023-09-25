@@ -36,7 +36,7 @@ def get_pictures():
     all_urls=[]
     for each in data:
         urls=each["pic_url"]
-        all_urls.append(urls)
+        all_urls.append(each)
     return (all_urls, 200)
    
 
